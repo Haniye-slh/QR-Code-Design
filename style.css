@@ -1,0 +1,53 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+h3, p{
+Text-align: center
+}
+p{
+    color: hsl(216, 15%, 48%);
+}
+.image-wrapper {
+    background-color: #3785FF;
+    padding:40px;
+    margin: 5px;
+    margin-top: 16px;
+    border-radius: 15px;
+}
+.card-wrapper {
+    border-radius: 15px;
+}
+
+@media (max-width: 320px) {
+    .card-wrapper {
+        max-width: 280px;
+        padding: 10px;
+    }
+    
+    .image-wrapper {
+        padding: 15px;
+    }
+}
+
+/* For tablets and larger phones */
+@media (min-width: 376px) and (max-width: 767px) {
+    .card-wrapper {
+        max-width: 320px;
+    }
+}
+
+/* For desktop */
+@media (min-width: 768px) {
+    .card-wrapper {
+        max-width: 350px;
+    }
+    
+    .image-wrapper {
+        padding: 40px;
+    }
+}
